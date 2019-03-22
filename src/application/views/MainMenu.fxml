@@ -4,6 +4,7 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FXMLController">
    <children>
@@ -23,5 +24,10 @@
             <Image url="@../../../train.png" />
          </image>
       </ImageView>
+      <Button fx:id="toGame1Button" layoutX="556.0" layoutY="561.0" mnemonicParsing="false" onAction="#toGame1" text="Go to Game1" textAlignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
